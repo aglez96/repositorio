@@ -1,0 +1,91 @@
+/*reglas generales*/
+:root {
+    --bs-blue: #037BC0;
+    --bs-green: #8CBC00;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Raleway" sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Playfair Display", serif;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 4rem;
+}
+
+/*Media Query*/
+@media (min-width: 768px) {
+    h1 {
+        font-size: 5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    h2 {
+        font-size: 4rem;
+    }
+}
+
+@media (min-width: 768px) {
+    h3 {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .hero {
+        height: 55rem;
+    }
+}
+
+/** Reescribir colores */
+.text .primary,
+.nombre-sitio {
+    color: var(--bs-blue) !important;
+}
+
+.hero {
+    background-image: url(../img/principal.jpg);
+    height: 25rem;
+    background-size: cover;
+    background-position: center center;
+}
+
+.btn-success {
+    background-color: var(--bs-green)!important;
+    border-radius: 10px;
+}
+.bg-primary,
+.btn-primary {
+    background-color: var(--bs-blue)!important;
+}
+.marca {
+    font-size: 1.5rem;
+}
+
+
+.grow:hover
+{
+-webkit-transform: scale(1.3);
+transform: scale(1.3);
+}
+
